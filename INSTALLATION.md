@@ -95,7 +95,7 @@ From now on the installation assumes you are in the `race_stack` folder.
 Install all the dependencies
 ```
 # ubuntu packages dependencies
-xargs sudo apt-get install -y < ./.install_utils/linux_req_car.txt
+xargs sudo apt-get install -y < ./.devcontainer/.install_utils/linux_req_car.txt
 
 # python dependencies
 pip install -r ./.devcontainer/.install_utils/requirements.txt
